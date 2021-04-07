@@ -17,10 +17,15 @@ L'objectif est de concevoir un capteur de déformation en graphite.
 ## Utilisation <a name="paragraph2"></a>
 
   -Imprimer le PCB, préalablement designé sur KiCad, grâce à l'empreinte Gerber. 
+  
   -Vérifier l'état des pistes. 
+  
   -Souder les composants et brancher l'OLED, l'encodeur rotatoir et le module Bluetooth. 
+  
   -Connecter le PCB sur la carte ARDUINO UNO.
+  
   -Connecter le microcontrolleur ARDUINO UNO au PC grâce au cable USB. 
+  
   -Ouvrir le programme ARDUINO "ArduinoCode" joint çi dessus. Sélectionner au préalable le bon port de communication Arduino puis compiler et téléverser le programme. 
   
 Les valeurs de résistance/tension sont directement affichées sur l'OLED. Grâce à l'encodeur rotatoir, vous pouvez décider d'afficher la mesure souhaitée. Ces dernières sont aussi disponibles sur le moniteur ARDUINO.
