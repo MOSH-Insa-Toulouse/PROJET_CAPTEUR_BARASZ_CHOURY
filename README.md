@@ -1,7 +1,5 @@
 # PROJET_CAPTEUR_BARASZ_CHOURY
 
-2020-2021 : Ce projet a été réalisé dans le cadre de l'unité de formation _"Du capteur au banc de test"_ de 4ième année Génie Physique à l'INSA Toulouse.
-
 
 ## SOMMAIRE 
 1. [Introduction](#introduction)
@@ -12,7 +10,8 @@
 5. [Application APK](#paragraph5)
 
 ## Introduction <a name="introduction"></a>
-L’objectif du projet est la conception d’un capteur de déformation/jauge de déformation à base de graphite, peu coûteux, flexible, léger, et avant tout écoresponsable. 
+2020-2021 : Ce projet a été réalisé dans le cadre de l'unité de formation _"Du capteur au banc de test"_ de 4ième année Génie Physique à l'INSA Toulouse.
+L’objectif est la conception d’un capteur de déformation/jauge de déformation à base de graphite, peu coûteux, flexible, léger, et avant tout écoresponsable. 
 
 Sur du papier, le coloriage au crayon laisse une fine couche de graphite possédant un réseau percolé. Toute déformation de ce réseau percolé induit une variation de la distance entre les nanoparticules de graphite. Cette dernière est à l’origine de la modification de la conductivité électrique/résistance de la couche de graphite. 
 
