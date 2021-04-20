@@ -1,0 +1,6 @@
+(sym_lib_table
+  (lib (name ltc1050)(type Legacy)(uri ${KIPRJMOD}/ltc1050.lib)(options "")(descr ""))
+  (lib (name oleo_0_91)(type Legacy)(uri ${KIPRJMOD}/oleo_0_91.lib)(options "")(descr ""))
+  (lib (name bluetooth-hc05)(type Legacy)(uri ${KIPRJMOD}/bluetooth-hc05.lib)(options "")(descr ""))
+  (lib (name ky_040)(type Legacy)(uri ${KIPRJMOD}/ky_040.lib)(options "")(descr ""))
+)
