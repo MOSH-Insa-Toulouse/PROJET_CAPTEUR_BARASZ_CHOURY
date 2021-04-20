@@ -32,6 +32,7 @@ Schema de l'OLED
 Schema du module bluetooth
     
    ![Capture d’écran 2021-04-20 à 10 35 13](https://user-images.githubusercontent.com/77725271/115364950-346aab80-a1c4-11eb-9b26-226f714a423c.png)
+   
 Schema de l'encodeut rotatoir
     
     - Schéma electrique du circuit sur eeschema
@@ -65,7 +66,9 @@ This is a sub paragraph, formatted in heading 3 style
   
 Les valeurs de résistance/tension sont directement affichées sur l'Oled. Grâce à l'encodeur rotatoir, vous pouvez décider d'afficher la grandeur souhaitée. Ces dernières sont aussi disponibles sur le moniteur Arduino.
 Vous pouvez aussi télécharger notre application APK pour obtenir directement les valeurs sur votre smartphone grâce à votre connexion Bluetooth. 
+
 ## Arduino UNO <a name="paragraph4"></a>
+
 
 
 
