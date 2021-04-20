@@ -23,12 +23,18 @@ La chaîne de mesure fin prête, nous avons mis au point un banc de test permett
 
 Réalisation de la carte PCB:
 
-    - Creation des symboles de l'OLED, le module bluetooth, l'encodeur rotatoir
+    - Creation des symboles de l'OLED, le module bluetooth, l'encodeur rotatoir et le capteur graphite 
+
+   ![Capture d’écran 2021-04-20 à 10 49 12](https://user-images.githubusercontent.com/77725271/115367024-1a31cd00-a1c6-11eb-9362-58d2007cb7b7.png)
+   
+Schema du capteur Graphite
     
-   ![Capture d’écran 2021-04-20 à 10 30 14](https://user-images.githubusercontent.com/77725271/115364228-76dfb880-a1c3-11eb-8112-ee9c07ff22fa.png)  
+   ![Capture d’écran 2021-04-20 à 10 30 14](https://user-images.githubusercontent.com/77725271/115364228-76dfb880-a1c3-11eb-8112-ee9c07ff22fa.png) 
+   
 Schema de l'OLED
    
-   ![Capture d’écran 2021-04-20 à 10 30 14](https://user-images.githubusercontent.com/77725271/115364487-b9a19080-a1c3-11eb-9f7a-0e47cbe65b2b.png)    
+   ![Capture d’écran 2021-04-20 à 10 30 14](https://user-images.githubusercontent.com/77725271/115364487-b9a19080-a1c3-11eb-9f7a-0e47cbe65b2b.png)
+   
 Schema du module bluetooth
     
    ![Capture d’écran 2021-04-20 à 10 35 13](https://user-images.githubusercontent.com/77725271/115364950-346aab80-a1c4-11eb-9b26-226f714a423c.png)
@@ -69,7 +75,7 @@ Vous pouvez aussi télécharger notre application APK pour obtenir directement l
 
 ## Arduino UNO <a name="paragraph4"></a>
 
-
+ 
 
 
 ## Application APK <a name="paragraph5"></a>
