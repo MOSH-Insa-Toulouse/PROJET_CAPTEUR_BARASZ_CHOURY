@@ -22,10 +22,11 @@ La chaîne de mesure fin prête, nous avons mis au point un banc de test permett
 ## KiCad <a name="paragraph3"></a>
 
 Réalisation de la carte PCB:
+
     - Creation des symboles de l'OLED, le module bluetooth, l'encodeur rotatoir
     
-    - Schéma electrique du circuit sur eeschema!
-   [Capture d’écran 2021-04-20 à 10 19 14](https://user-images.githubusercontent.com/77725271/115362660-0f753900-a1c2-11eb-8249-97a2df3727b4.png)
+    - Schéma electrique du circuit sur eeschema
+   ![Capture d’écran 2021-04-20 à 10 19 14](https://user-images.githubusercontent.com/77725271/115362660-0f753900-a1c2-11eb-8249-97a2df3727b4.png)
 
     
     - Routage des pistes sur pcbnew
@@ -35,22 +36,22 @@ This is a sub paragraph, formatted in heading 3 style
 
 ## Installation de la chaine de mesure <a name="paragraph3"></a>
 
-  -Imprimer le PCB, préalablement designé sur KiCad, grâce à l'empreinte Gerber. 
+    - Imprimer le PCB, préalablement designé sur KiCad, grâce à l'empreinte Gerber. 
   
-  -Vérifier l'état des pistes. 
+    - Vérifier l'état des pistes. 
   
-  -Souder les composants et brancher l'Oled, l'encodeur rotatoir et le module Bluetooth. 
+    - Souder les composants et brancher l'Oled, l'encodeur rotatoir et le module Bluetooth. 
   
-  -Connecter le PCB sur la carte Arduino Uno.
+    - Connecter le PCB sur la carte Arduino Uno.
   
-  -Connecter le microcontrolleur Arduino Uno au PC grâce au cable USB. 
+    - Connecter le microcontrolleur Arduino Uno au PC grâce au cable USB. 
   
-  -Ouvrir le programme Arduino "ArduinoCode" joint çi dessus. Sélectionner au préalable le bon port de communication Arduino puis compiler et téléverser le programme. 
+    - Ouvrir le programme Arduino "ArduinoCode" joint çi dessus. Sélectionner au préalable le bon port de communication Arduino puis compiler et téléverser le programme. 
   
 Les valeurs de résistance/tension sont directement affichées sur l'Oled. Grâce à l'encodeur rotatoir, vous pouvez décider d'afficher la grandeur souhaitée. Ces dernières sont aussi disponibles sur le moniteur Arduino.
 Vous pouvez aussi télécharger notre application APK pour obtenir directement les valeurs sur votre smartphone grâce à votre connexion Bluetooth. 
 ## Arduino UNO <a name="paragraph4"></a>
-![Capture d’écran 2021-04-20 à 10 19 14](https://user-images.githubusercontent.com/77725271/115362597-fd939600-a1c1-11eb-9dec-a8ce509b23ec.png)
+
 
 
 ## Application APK <a name="paragraph5"></a>
