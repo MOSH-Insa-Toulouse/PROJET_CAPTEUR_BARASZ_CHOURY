@@ -25,16 +25,13 @@ Réalisation de la carte PCB:
 
     - Creation des symboles de l'OLED, le module bluetooth, l'encodeur rotatoir
     
-   ![Capture d’écran 2021-04-20 à 10 30 14](https://user-images.githubusercontent.com/77725271/115364228-76dfb880-a1c3-11eb-8112-ee9c07ff22fa.png)
-  
+   ![Capture d’écran 2021-04-20 à 10 30 14](https://user-images.githubusercontent.com/77725271/115364228-76dfb880-a1c3-11eb-8112-ee9c07ff22fa.png)  
 Schema de l'OLED
    
-   ![Capture d’écran 2021-04-20 à 10 30 14](https://user-images.githubusercontent.com/77725271/115364487-b9a19080-a1c3-11eb-9f7a-0e47cbe65b2b.png)
-    
+   ![Capture d’écran 2021-04-20 à 10 30 14](https://user-images.githubusercontent.com/77725271/115364487-b9a19080-a1c3-11eb-9f7a-0e47cbe65b2b.png)    
 Schema du module bluetooth
     
    ![Capture d’écran 2021-04-20 à 10 35 13](https://user-images.githubusercontent.com/77725271/115364950-346aab80-a1c4-11eb-9b26-226f714a423c.png)
-
 Schema de l'encodeut rotatoir
     
     - Schéma electrique du circuit sur eeschema
@@ -43,6 +40,10 @@ Schema de l'encodeut rotatoir
     
     - Routage des pistes sur pcbnew
    ![Capture d’écran 2021-04-20 à 10 38 54](https://user-images.githubusercontent.com/77725271/115365432-aba03f80-a1c4-11eb-92de-d01a9dc3d4a2.png)
+Visualisation 2D du shield
+
+   ![Capture d’écran 2021-04-20 à 10 42 33](https://user-images.githubusercontent.com/77725271/115365961-26695a80-a1c5-11eb-9623-35357b8806e4.png)
+Visualisation 3D du shield
 
 
 ### Sub paragraph <a name="subparagraph3.1"></a>
