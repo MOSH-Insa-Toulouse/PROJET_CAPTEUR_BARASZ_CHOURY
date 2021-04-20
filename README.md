@@ -27,22 +27,23 @@ Réalisation de la carte PCB:
     
    ![Capture d’écran 2021-04-20 à 10 30 14](https://user-images.githubusercontent.com/77725271/115364228-76dfb880-a1c3-11eb-8112-ee9c07ff22fa.png)
   
-    Schema de l'OLED
+Schema de l'OLED
    
    ![Capture d’écran 2021-04-20 à 10 30 14](https://user-images.githubusercontent.com/77725271/115364487-b9a19080-a1c3-11eb-9f7a-0e47cbe65b2b.png)
     
-    Schema du module bluetooth
+Schema du module bluetooth
     
    ![Capture d’écran 2021-04-20 à 10 35 13](https://user-images.githubusercontent.com/77725271/115364950-346aab80-a1c4-11eb-9b26-226f714a423c.png)
 
-    Schema de l'encodeut rotatoir
-
+Schema de l'encodeut rotatoir
     
     - Schéma electrique du circuit sur eeschema
    ![Capture d’écran 2021-04-20 à 10 19 14](https://user-images.githubusercontent.com/77725271/115362660-0f753900-a1c2-11eb-8249-97a2df3727b4.png)
 
     
     - Routage des pistes sur pcbnew
+   ![Capture d’écran 2021-04-20 à 10 38 54](https://user-images.githubusercontent.com/77725271/115365432-aba03f80-a1c4-11eb-92de-d01a9dc3d4a2.png)
+
 
 ### Sub paragraph <a name="subparagraph3.1"></a>
 This is a sub paragraph, formatted in heading 3 style
