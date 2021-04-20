@@ -3,9 +3,9 @@
 
 ## SOMMAIRE 
 1. [Introduction](#introduction)
-2. [Installation de la chaine de mesure](#paragraph2)
-3. [KiCad](#paragraph3)
-    1. [Sub paragraph](#subparagraph3.1)
+2. [KiCad](#paragraph2)
+    1. [Sub paragraph](#subparagraph2.1)
+3. [Installation de la chaine de mesure](#paragraph3)
 4. [Arduino UNO](#paragraph4)
 5. [Application APK](#paragraph5)
 
@@ -19,8 +19,21 @@ Souhaitant acquérir et exploiter le signal associé à la variation de résista
 
 La chaîne de mesure fin prête, nous avons mis au point un banc de test permettant l'étude de la variation de la résistance de différents type de capteurs soumis à une même déformation.
 
+## KiCad <a name="paragraph3"></a>
 
-## Installation de la chaine de mesure <a name="paragraph2"></a>
+Réalisation de la carte PCB:
+    - Creation des symboles de l'OLED, le module bluetooth, l'encodeur rotatoir
+    
+    - Schéma electrique du circuit sur eeschema!
+   [Capture d’écran 2021-04-20 à 10 19 14](https://user-images.githubusercontent.com/77725271/115362660-0f753900-a1c2-11eb-8249-97a2df3727b4.png)
+
+    
+    - Routage des pistes sur pcbnew
+
+### Sub paragraph <a name="subparagraph3.1"></a>
+This is a sub paragraph, formatted in heading 3 style
+
+## Installation de la chaine de mesure <a name="paragraph3"></a>
 
   -Imprimer le PCB, préalablement designé sur KiCad, grâce à l'empreinte Gerber. 
   
@@ -36,14 +49,8 @@ La chaîne de mesure fin prête, nous avons mis au point un banc de test permett
   
 Les valeurs de résistance/tension sont directement affichées sur l'Oled. Grâce à l'encodeur rotatoir, vous pouvez décider d'afficher la grandeur souhaitée. Ces dernières sont aussi disponibles sur le moniteur Arduino.
 Vous pouvez aussi télécharger notre application APK pour obtenir directement les valeurs sur votre smartphone grâce à votre connexion Bluetooth. 
-
-## KiCad <a name="paragraph3"></a>
-The first paragraph text
-
-### Sub paragraph <a name="subparagraph3.1"></a>
-This is a sub paragraph, formatted in heading 3 style
-
 ## Arduino UNO <a name="paragraph4"></a>
-The second paragraph text
+![Capture d’écran 2021-04-20 à 10 19 14](https://user-images.githubusercontent.com/77725271/115362597-fd939600-a1c1-11eb-9dec-a8ce509b23ec.png)
+
 
 ## Application APK <a name="paragraph5"></a>
