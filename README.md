@@ -27,41 +27,6 @@ La chaîne de mesure fin prête, nous avons mis au point un banc de test permett
 Réalisation de la carte PCB sur KiCad  
    
     - Creation des symboles de l'OLED, le module bluetooth, l'encodeur rotatoir et le capteur graphite 
- 
-
-
-   
-Schema de l'OLED 
-
-![Capture d’écran 2021-04-20 à 10 30 14](https://user-images.githubusercontent.com/77725271/115364228-76dfb880-a1c3-11eb-8112-ee9c07ff22fa.png) 
-![Capture d’écran 2021-04-21 à 10 45 52](https://user-images.githubusercontent.com/77725271/115527939-d86e5880-a291-11eb-8551-8132ad18b4c7.png)
-
-   
-Schema du module bluetooth 
-
-![Capture d’écran 2021-04-21 à 11 15 41](https://user-images.githubusercontent.com/77725271/115529119-ecff2080-a292-11eb-853d-06e517b9ae2a.png) 
-![Capture d’écran 2021-04-21 à 11 06 53](https://user-images.githubusercontent.com/77725271/115528318-3733d200-a292-11eb-9dda-b51a7040eb84.png)
-
-   
-   
-Schema de l'encodeur rotatoir  
-
-![Capture d’écran 2021-04-20 à 10 35 13](https://user-images.githubusercontent.com/77725271/115364950-346aab80-a1c4-11eb-9b26-226f714a423c.png)
-![Capture d’écran 2021-04-21 à 11 07 10](https://user-images.githubusercontent.com/77725271/115528217-23886b80-a292-11eb-8f6e-187f18b8f22f.png)  
-
-Schema du capteur Graphite 
-
-![Capture d’écran 2021-04-21 à 11 13 47](https://user-images.githubusercontent.com/77725271/115528875-b5907400-a292-11eb-8586-fe60c03741cb.png)
-![Capture d’écran 2021-04-21 à 11 13 53](https://user-images.githubusercontent.com/77725271/115528903-bb865500-a292-11eb-9187-980742526d83.png)
-
-
-  
- Schema de l'amplificateur LTC1050 (empreinte déjà sur KiCad)
- 
- ![Capture d’écran 2021-04-20 à 10 49 12](https://user-images.githubusercontent.com/77725271/115367024-1a31cd00-a1c6-11eb-9362-58d2007cb7b7.png)![Capture d’écran 2021-04-21 à 11 06 22](https://user-images.githubusercontent.com/77725271/115528184-19ff0380-a292-11eb-9b9c-4c3089572d6f.png)
-
-
-   
 
     - Schéma electrique du circuit sur eeschema  
 ![Capture d’écran 2021-04-20 à 10 19 14](https://user-images.githubusercontent.com/77725271/115362660-0f753900-a1c2-11eb-8249-97a2df3727b4.png)
