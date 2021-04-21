@@ -50,7 +50,9 @@ Schema de l'encodeur rotatoir
 ![Capture d’écran 2021-04-21 à 11 07 10](https://user-images.githubusercontent.com/77725271/115528217-23886b80-a292-11eb-8f6e-187f18b8f22f.png)  
 
 Schema du capteur Graphite 
-![Capture d’écran 2021-04-21 à 11 13 47](https://user-images.githubusercontent.com/77725271/115528875-b5907400-a292-11eb-8586-fe60c03741cb.png)![Capture d’écran 2021-04-21 à 11 13 53](https://user-images.githubusercontent.com/77725271/115528903-bb865500-a292-11eb-9187-980742526d83.png)
+
+![Capture d’écran 2021-04-21 à 11 13 47](https://user-images.githubusercontent.com/77725271/115528875-b5907400-a292-11eb-8586-fe60c03741cb.png)
+![Capture d’écran 2021-04-21 à 11 13 53](https://user-images.githubusercontent.com/77725271/115528903-bb865500-a292-11eb-9187-980742526d83.png)
 
 
   
