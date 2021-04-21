@@ -6,7 +6,7 @@
 2. [KiCad](#paragraph2)
 3. [Installation de la chaine de mesure](#paragraph3)
 4. [Arduino UNO](#paragraph4)
-    1. [Bibliothèques Arduino](#subparagraph4.1)
+    4.1. [Bibliothèques Arduino](#subparagraph4.1)
 6. [Application APK](#paragraph5)
 
 ## Introduction <a name="introduction"></a>
@@ -86,7 +86,7 @@ Vous pouvez aussi télécharger notre application APK pour obtenir directement l
 
 Le code Arduino permet de lire les valeur de tension du capteur de graphite. Vous pouvez choisir par la suite d'afficher sur l'écran OLED soit la tension soit la resistance grâce à l'encodeur rotatoir. 
 
-Le code permet aussi de communiquer avec le télephone portable si vous avez téléchargé notre application Bluetoth APK.
+Le code permet aussi de communiquer avec le télephone portable si vous avez téléchargé notre application Bluetooth APK.
 
 ### Bibliothèques Arduino <a name="subparagraph4.1"></a>
 
