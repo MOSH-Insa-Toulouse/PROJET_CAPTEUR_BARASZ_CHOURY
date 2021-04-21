@@ -49,10 +49,12 @@ Schema de l'encodeur rotatoir
    
     - Routage des pistes sur pcbnew  
 
-Visualisation 2D du shield  
+Visualisation 2D du shield 
+
 ![Capture d’écran 2021-04-20 à 10 38 54](https://user-images.githubusercontent.com/77725271/115365432-aba03f80-a1c4-11eb-92de-d01a9dc3d4a2.png)
    
-Visualisation 3D du shield  
+Visualisation 3D du shield
+
 ![Capture d’écran 2021-04-20 à 10 42 33](https://user-images.githubusercontent.com/77725271/115365961-26695a80-a1c5-11eb-9623-35357b8806e4.png)
 
 --------------------
