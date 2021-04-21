@@ -28,18 +28,22 @@ Réalisation de la carte PCB sur KiCad
     - Creation des symboles de l'OLED, le module bluetooth, l'encodeur rotatoir et le capteur graphite 
  
 
-Schema du capteur Graphite  
+Schema du capteur Graphite 
+
  ![Capture d’écran 2021-04-20 à 10 49 12](https://user-images.githubusercontent.com/77725271/115367024-1a31cd00-a1c6-11eb-9362-58d2007cb7b7.png)
    
    
-Schema de l'OLED  
+Schema de l'OLED 
+
 ![Capture d’écran 2021-04-20 à 10 30 14](https://user-images.githubusercontent.com/77725271/115364228-76dfb880-a1c3-11eb-8112-ee9c07ff22fa.png) 
    
-Schema du module bluetooth  
+Schema du module bluetooth 
+
 ![Capture d’écran 2021-04-20 à 10 30 14](https://user-images.githubusercontent.com/77725271/115364487-b9a19080-a1c3-11eb-9f7a-0e47cbe65b2b.png)
    
    
-Schema de l'encodeur rotatoir    
+Schema de l'encodeur rotatoir  
+
 ![Capture d’écran 2021-04-20 à 10 35 13](https://user-images.githubusercontent.com/77725271/115364950-346aab80-a1c4-11eb-9b26-226f714a423c.png)
   
 
@@ -100,21 +104,30 @@ Afin d'utiliser le code Arduino il vous faudra au préalable télécharger des b
 Vous pouvez aussi télécharger ces bibliothèques direcetement sur l'application Arduino
 
 
-1) Dans l’IDE Arduino cliquez sur "croquis", allez sur "inclure un bibliothèque" puis cliquez sur  "Gerer les bibliothèques" .  
+1) Dans l’IDE Arduino cliquez sur "croquis", allez sur "inclure un bibliothèque" puis cliquez sur  "Gerer les bibliothèques".  
+
 ![Capture d’écran 2021-04-21 à 09 37 15](https://user-images.githubusercontent.com/77725271/115515189-2df03880-a285-11eb-8b8e-ceb9764ce249.png)
 
 
-2) Une fenêtre apparait. Tappez le nom de la bibliothèques que vous voulez ajouter dans la barre de recherche et cliquez sur  "Installer".Fermez la fenêtre  
+2) Une fenêtre apparait. Tappez le nom de la bibliothèques que vous voulez ajouter dans la barre de recherche et cliquez sur  "Installer".Fermez la fenêtre.  
+   
 ![Capture d’écran 2021-04-21 à 09 36 37](https://user-images.githubusercontent.com/77725271/115515123-17e27800-a285-11eb-918f-82b29236e2cc.png)
 
 
 3) Dans l’IDE Arduino cliquez sur "croquis", allez sur "inclure un bibliothèque". A la fin dans les "bibliothèques contribuées" doit se trouver votre biblothèques téléchargée.  
+
 ![Capture d’écran 2021-04-21 à 09 40 34](https://user-images.githubusercontent.com/77725271/115515643-a3f49f80-a285-11eb-826f-339561a92329.png)
 
 
 4) Afin de savoir comment fonctionne la bibliothèque installée, vous pourrez vous servir de la page d’aide qui accompagne généralement la bibliothèque ou alors vous aider des exemples fournis avec celle-ci disponible ici :  
+
 ![Capture d’écran 2021-04-21 à 09 43 44](https://user-images.githubusercontent.com/77725271/115516104-16fe1600-a286-11eb-8c3d-5318493226ed.png)
 
----------------------------------------------------------------
+------------------------------
 
 ## Application APK <a name="paragraph5"></a>
+
+L'application APK est une applictaion pour smartphone utilisant le système d'exploitation Android. 
+Vous pouvez telecharger l'application grâce au fichier .apk qui vous est fourni dans notre dossier APK Bluetooth.  
+Si vous soouhaitez modifier l'application, vous pouvez utiliser le fichier .aia sur l'application en ligne _MIT APP INVENTOR_.  
+
