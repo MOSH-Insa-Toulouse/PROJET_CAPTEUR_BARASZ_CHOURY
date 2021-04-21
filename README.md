@@ -2,15 +2,14 @@
 
 
 ## SOMMAIRE 
-1. [Introduction](#introduction)
-2. [KiCad](#paragraph2)
-3. [Installation de la chaine de mesure](#paragraph3)
-4. [Arduino UNO](#paragraph4)  
-    4.1. [Bibliothèques Arduino](#subparagraph4.1)
-6. [Application APK](#paragraph5)
+* 1 [Introduction](#introduction)
+* 2 [KiCad](#paragraph2)
+* 3 [Installation de la chaine de mesure](#paragraph3)
+*  4 [Arduino UNO](#paragraph4)  
+    *  4.1 [Bibliothèques Arduino](#subparagraph4.1)
+* 5 [Application APK](#paragraph5)
 
--------------------------------------------------------------------------------  
-
+--------- 
 ## Introduction <a name="introduction"></a>
 2020-2021 : Ce projet a été réalisé dans le cadre de l'unité de formation _"Du capteur au banc de test"_ de 4ième année Génie Physique à l'INSA Toulouse.
 L’objectif est la conception d’un capteur de déformation (jauge de déformation) à base de graphite, peu coûteux, flexible, léger, et avant tout écoresponsable. 
@@ -21,17 +20,16 @@ Souhaitant acquérir et exploiter le signal associé à la variation de résista
 
 La chaîne de mesure fin prête, nous avons mis au point un banc de test permettant l'étude de la variation de la résistance de différents type de capteurs soumis à une même déformation.
 
-----------------------------------------------------------------
+-------------------
 ## KiCad <a name="paragraph2"></a>
 
 Réalisation de la carte PCB sur KiCad  
+   
     - Creation des symboles de l'OLED, le module bluetooth, l'encodeur rotatoir et le capteur graphite 
  
 
 Schema du capteur Graphite  
  ![Capture d’écran 2021-04-20 à 10 49 12](https://user-images.githubusercontent.com/77725271/115367024-1a31cd00-a1c6-11eb-9362-58d2007cb7b7.png)
-   
-   
    
    
 Schema de l'OLED  
@@ -57,7 +55,7 @@ Visualisation 2D du shield
 Visualisation 3D du shield  
 ![Capture d’écran 2021-04-20 à 10 42 33](https://user-images.githubusercontent.com/77725271/115365961-26695a80-a1c5-11eb-9623-35357b8806e4.png)
 
--------------------------------------------------
+--------------------
 
 ## Installation de la chaine de mesure <a name="paragraph3"></a>
 
@@ -76,7 +74,7 @@ Visualisation 3D du shield
 Les valeurs de résistance/tension sont directement affichées sur l'Oled. Grâce à l'encodeur rotatoir, vous pouvez décider d'afficher la grandeur souhaitée. Ces dernières sont aussi disponibles sur le moniteur Arduino.
 Vous pouvez aussi télécharger notre application APK pour obtenir directement les valeurs sur votre smartphone grâce à votre connexion Bluetooth. 
 
---------------------------------------------------------------
+----------------------
 
 ## Arduino UNO <a name="paragraph4"></a>
 
@@ -104,7 +102,7 @@ Vous pouvez aussi télécharger ces bibliothèques direcetement sur l'applicatio
 ![Capture d’écran 2021-04-21 à 09 37 15](https://user-images.githubusercontent.com/77725271/115515189-2df03880-a285-11eb-8b8e-ceb9764ce249.png)
 
 
-2)Une fenêtre apparait. Tappez le nom de la bibliothèques que vous voulez ajouter dans la barre de recherche et cliquez sur  "Installer".Fermez la fenêtre  
+2) Une fenêtre apparait. Tappez le nom de la bibliothèques que vous voulez ajouter dans la barre de recherche et cliquez sur  "Installer".Fermez la fenêtre  
 ![Capture d’écran 2021-04-21 à 09 36 37](https://user-images.githubusercontent.com/77725271/115515123-17e27800-a285-11eb-918f-82b29236e2cc.png)
 
 
