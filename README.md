@@ -4,10 +4,10 @@
 ## SOMMAIRE 
 1. [Introduction](#introduction)
 2. [KiCad](#paragraph2)
-    1. [Sub paragraph](#subparagraph2.1)
 3. [Installation de la chaine de mesure](#paragraph3)
 4. [Arduino UNO](#paragraph4)
-5. [Application APK](#paragraph5)
+    1. [Bibliothèques Arduino](#subparagraph4.1)
+6. [Application APK](#paragraph5)
 
 ## Introduction <a name="introduction"></a>
 2020-2021 : Ce projet a été réalisé dans le cadre de l'unité de formation _"Du capteur au banc de test"_ de 4ième année Génie Physique à l'INSA Toulouse.
@@ -25,19 +25,19 @@ Réalisation de la carte PCB sur KiCad
 
     - Creation des symboles de l'OLED, le module bluetooth, l'encodeur rotatoir et le capteur graphite 
 
-.Schema du capteur Graphite
+Schema du capteur Graphite
 
    ![Capture d’écran 2021-04-20 à 10 49 12](https://user-images.githubusercontent.com/77725271/115367024-1a31cd00-a1c6-11eb-9362-58d2007cb7b7.png)
    
-.Schema de l'OLED
+Schema de l'OLED
 
    ![Capture d’écran 2021-04-20 à 10 30 14](https://user-images.githubusercontent.com/77725271/115364228-76dfb880-a1c3-11eb-8112-ee9c07ff22fa.png) 
    
-.Schema du module bluetooth 
+Schema du module bluetooth 
 
    ![Capture d’écran 2021-04-20 à 10 30 14](https://user-images.githubusercontent.com/77725271/115364487-b9a19080-a1c3-11eb-9f7a-0e47cbe65b2b.png)
    
-.Schema de l'encodeut rotatoir  
+Schema de l'encodeur rotatoir  
 
    ![Capture d’écran 2021-04-20 à 10 35 13](https://user-images.githubusercontent.com/77725271/115364950-346aab80-a1c4-11eb-9b26-226f714a423c.png)
    
@@ -76,7 +76,21 @@ Vous pouvez aussi télécharger notre application APK pour obtenir directement l
 
 ## Arduino UNO <a name="paragraph4"></a>
 
- 
+Le code Arduino permet de lire les valeur de tension du capteur de graphite. Vous pouvez choisir par la suite d'afficher sur l'écran OLED soit la tension soit la resistance grâce à l'encodeur rotatoir. 
+
+Le code permet aussi de communiquer avec le télephone portable si vous avez téléchargé notre application Bluetoth APK.
+
+### Bibliothèques Arduino <a name="subparagraph4.1"></a>
+
+Afin d'utiliser le code Arduino il vous faudra au préalable télécharger des bibliothèques Arduino
+
+À installer depuis l'IDE ou GitHub :
+
+    Adafruit GFX Library : https://github.com/adafruit/Adafruit-GFX-Library
+    Adafruit SSD1306 : https://github.com/adafruit/Adafruit_SSD1306
+    Adafruit BusIO : https://github.com/adafruit/Adafruit_BusIO
+
+Vous pouvez aussi 
 
 
 ## Application APK <a name="paragraph5"></a>
