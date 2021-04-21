@@ -6,7 +6,7 @@
 2. [KiCad](#paragraph2)
 3. [Installation de la chaine de mesure](#paragraph3)
 4. [Arduino UNO](#paragraph4)
-    4.1. [Bibliothèques Arduino](#subparagraph4.1)
+    1. [Bibliothèques Arduino](#subparagraph4.1)
 6. [Application APK](#paragraph5)
 
 ## Introduction <a name="introduction"></a>
@@ -19,7 +19,7 @@ Souhaitant acquérir et exploiter le signal associé à la variation de résista
 
 La chaîne de mesure fin prête, nous avons mis au point un banc de test permettant l'étude de la variation de la résistance de différents type de capteurs soumis à une même déformation.
 
-## KiCad <a name="paragraph3"></a>
+## KiCad <a name="paragraph2"></a>
 
 Réalisation de la carte PCB sur KiCad
 
@@ -31,9 +31,13 @@ Schema du capteur Graphite
    ![Capture d’écran 2021-04-20 à 10 49 12](https://user-images.githubusercontent.com/77725271/115367024-1a31cd00-a1c6-11eb-9362-58d2007cb7b7.png)
    
    
+   
+   
 Schema de l'OLED
 
    ![Capture d’écran 2021-04-20 à 10 30 14](https://user-images.githubusercontent.com/77725271/115364228-76dfb880-a1c3-11eb-8112-ee9c07ff22fa.png) 
+   
+   
    
    
 Schema du module bluetooth 
@@ -41,9 +45,13 @@ Schema du module bluetooth
    ![Capture d’écran 2021-04-20 à 10 30 14](https://user-images.githubusercontent.com/77725271/115364487-b9a19080-a1c3-11eb-9f7a-0e47cbe65b2b.png)
    
    
+   
+   
 Schema de l'encodeur rotatoir  
 
    ![Capture d’écran 2021-04-20 à 10 35 13](https://user-images.githubusercontent.com/77725271/115364950-346aab80-a1c4-11eb-9b26-226f714a423c.png)
+   
+   
    
    
 
@@ -52,6 +60,8 @@ Schema de l'encodeur rotatoir
    ![Capture d’écran 2021-04-20 à 10 19 14](https://user-images.githubusercontent.com/77725271/115362660-0f753900-a1c2-11eb-8249-97a2df3727b4.png)
 
     
+    
+    
     - Routage des pistes sur pcbnew
 
 Visualisation 2D du shield
@@ -59,9 +69,11 @@ Visualisation 2D du shield
    ![Capture d’écran 2021-04-20 à 10 38 54](https://user-images.githubusercontent.com/77725271/115365432-aba03f80-a1c4-11eb-92de-d01a9dc3d4a2.png)
    
 
+
 Visualisation 3D du shield
 
    ![Capture d’écran 2021-04-20 à 10 42 33](https://user-images.githubusercontent.com/77725271/115365961-26695a80-a1c5-11eb-9623-35357b8806e4.png)
+
 
 
 
@@ -82,11 +94,15 @@ Visualisation 3D du shield
 Les valeurs de résistance/tension sont directement affichées sur l'Oled. Grâce à l'encodeur rotatoir, vous pouvez décider d'afficher la grandeur souhaitée. Ces dernières sont aussi disponibles sur le moniteur Arduino.
 Vous pouvez aussi télécharger notre application APK pour obtenir directement les valeurs sur votre smartphone grâce à votre connexion Bluetooth. 
 
+
+
+
 ## Arduino UNO <a name="paragraph4"></a>
 
 Le code Arduino permet de lire les valeur de tension du capteur de graphite. Vous pouvez choisir par la suite d'afficher sur l'écran OLED soit la tension soit la resistance grâce à l'encodeur rotatoir. 
 
 Le code permet aussi de communiquer avec le télephone portable si vous avez téléchargé notre application Bluetooth APK.
+
 
 ### Bibliothèques Arduino <a name="subparagraph4.1"></a>
 
@@ -98,7 +114,10 @@ Afin d'utiliser le code Arduino il vous faudra au préalable télécharger des b
 - Adafruit SSD1306 : https://github.com/adafruit/Adafruit_SSD1306
 - Adafruit BusIO : https://github.com/adafruit/Adafruit_BusIO
 
+
+
 Vous pouvez aussi télécharger ces bibliothèques direcetement sur l'application Arduino
+
 
 1) Dans l’IDE Arduino cliquez sur "croquis", allez sur "inclure un bibliothèque" puis cliquez sur  "Gerer les bibliothèques" .
 
