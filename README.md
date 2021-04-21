@@ -1,3 +1,4 @@
+
 # PROJET_CAPTEUR_BARASZ_CHOURY
 
 
@@ -38,7 +39,7 @@ Schema de l'OLED
    
 Schema du module bluetooth 
 
-![Capture d’écran 2021-04-20 à 10 30 14](https://user-images.githubusercontent.com/77725271/115364487-b9a19080-a1c3-11eb-9f7a-0e47cbe65b2b.png) 
+![Capture d’écran 2021-04-21 à 11 15 41](https://user-images.githubusercontent.com/77725271/115529119-ecff2080-a292-11eb-853d-06e517b9ae2a.png) 
 ![Capture d’écran 2021-04-21 à 11 06 53](https://user-images.githubusercontent.com/77725271/115528318-3733d200-a292-11eb-9dda-b51a7040eb84.png)
 
    
@@ -49,15 +50,13 @@ Schema de l'encodeur rotatoir
 ![Capture d’écran 2021-04-21 à 11 07 10](https://user-images.githubusercontent.com/77725271/115528217-23886b80-a292-11eb-8f6e-187f18b8f22f.png)  
 
 Schema du capteur Graphite 
-![Capture d’écran 2021-04-21 à 11 13 47](https://user-images.githubusercontent.com/77725271/115528875-b5907400-a292-11eb-8586-fe60c03741cb.png)
-![Capture d’écran 2021-04-21 à 11 13 53](https://user-images.githubusercontent.com/77725271/115528903-bb865500-a292-11eb-9187-980742526d83.png)
+![Capture d’écran 2021-04-21 à 11 13 47](https://user-images.githubusercontent.com/77725271/115528875-b5907400-a292-11eb-8586-fe60c03741cb.png)![Capture d’écran 2021-04-21 à 11 13 53](https://user-images.githubusercontent.com/77725271/115528903-bb865500-a292-11eb-9187-980742526d83.png)
 
 
   
  Schema de l'amplificateur LTC1050 (empreinte déjà sur KiCad)
  
- ![Capture d’écran 2021-04-20 à 10 49 12](https://user-images.githubusercontent.com/77725271/115367024-1a31cd00-a1c6-11eb-9362-58d2007cb7b7.png)
- ![Capture d’écran 2021-04-21 à 11 06 22](https://user-images.githubusercontent.com/77725271/115528184-19ff0380-a292-11eb-9b9c-4c3089572d6f.png)
+ ![Capture d’écran 2021-04-20 à 10 49 12](https://user-images.githubusercontent.com/77725271/115367024-1a31cd00-a1c6-11eb-9362-58d2007cb7b7.png)![Capture d’écran 2021-04-21 à 11 06 22](https://user-images.githubusercontent.com/77725271/115528184-19ff0380-a292-11eb-9b9c-4c3089572d6f.png)
 
 
    
