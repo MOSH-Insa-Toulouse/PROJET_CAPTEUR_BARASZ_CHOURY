@@ -1,7 +1,6 @@
 
 # PROJET_CAPTEUR_BARASZ_CHOURY
-
-https://github.com/MOSH-Insa-Toulouse/PROJET_CAPTEUR_BARASZ_CHOURY/blob/f5c0f5c2b84a9e1f35a1e793ca455d3b21bfb118/KiCad/Capteur/schema_capteur.png 
+ 
 ## SOMMAIRE 
 * 1 [Introduction](#introduction)
 * 2 [Installation de la chaine de mesure](#paragraph2)
