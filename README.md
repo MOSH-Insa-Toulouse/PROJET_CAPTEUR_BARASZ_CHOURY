@@ -4,11 +4,14 @@
 
 ## SOMMAIRE 
 * 1 [Introduction](#introduction)
-* 2 [KiCad](#paragraph2)
-* 3 [Installation de la chaine de mesure](#paragraph3)
-*  4 [Arduino UNO](#paragraph4)  
-    *  4.1 [Bibliothèques Arduino](#subparagraph4.1)
-* 5 [Application APK](#paragraph5)
+* 2 [Installation de la chaine de mesure](#paragraph2)
+* 3 [KiCad](#paragraph3)
+* 4 [Fabrication du shield et soudure des composants](#paragraph4)  
+    *  4.1 [Description du processus](#subparagraph4.1)
+    *  4.2 [Pistes d'amélioration](#subparagraph4.2)
+* 5 [Arduino UNO](#paragraph5)  
+    *  5.1 [Bibliothèques Arduino](#subparagraph5.1)
+* 6 [Application APK](#paragraph5)
 
 --------- 
 ## Introduction <a name="introduction"></a>
@@ -21,8 +24,28 @@ Souhaitant acquérir et exploiter le signal associé à la variation de résista
 
 La chaîne de mesure fin prête, nous avons mis au point un banc de test permettant l'étude de la variation de la résistance de différents type de capteurs soumis à une même déformation.
 
+--------------------
+
+## Installation de la chaine de mesure <a name="paragraph2"></a>
+
+    - Imprimer le PCB, préalablement designé sur KiCad, grâce à l'empreinte Gerber. 
+  
+    - Vérifier l'état des pistes. 
+  
+    - Souder les composants et brancher l'Oled, l'encodeur rotatoir et le module Bluetooth. 
+  
+    - Connecter le PCB sur la carte Arduino Uno.
+  
+    - Connecter le microcontrolleur Arduino Uno au PC grâce au cable USB. 
+  
+    - Ouvrir le programme Arduino "ArduinoCode" joint çi dessus. Sélectionner au préalable le bon port de communication Arduino puis compiler et téléverser le programme. 
+  
+Les valeurs de résistance/tension sont directement affichées sur l'Oled. Grâce à l'encodeur rotatoir, vous pouvez décider d'afficher la grandeur souhaitée. Ces dernières sont aussi disponibles sur le moniteur Arduino.
+Vous pouvez aussi télécharger notre application APK pour obtenir directement les valeurs sur votre smartphone grâce à votre connexion Bluetooth. 
+
 -------------------
-## KiCad <a name="paragraph2"></a>
+
+## KiCad <a name="paragraph3"></a>
 
 Réalisation de la carte PCB sur KiCad  
    
@@ -42,35 +65,24 @@ Visualisation 3D du shield
 
 ![Capture d’écran 2021-04-20 à 10 42 33](https://user-images.githubusercontent.com/77725271/115365961-26695a80-a1c5-11eb-9623-35357b8806e4.png)
 
---------------------
+-------------------
 
-## Installation de la chaine de mesure <a name="paragraph3"></a>
+## Fabrication du shield et soudure des composants <a name="paragraph3"></a>
 
-    - Imprimer le PCB, préalablement designé sur KiCad, grâce à l'empreinte Gerber. 
-  
-    - Vérifier l'état des pistes. 
-  
-    - Souder les composants et brancher l'Oled, l'encodeur rotatoir et le module Bluetooth. 
-  
-    - Connecter le PCB sur la carte Arduino Uno.
-  
-    - Connecter le microcontrolleur Arduino Uno au PC grâce au cable USB. 
-  
-    - Ouvrir le programme Arduino "ArduinoCode" joint çi dessus. Sélectionner au préalable le bon port de communication Arduino puis compiler et téléverser le programme. 
-  
-Les valeurs de résistance/tension sont directement affichées sur l'Oled. Grâce à l'encodeur rotatoir, vous pouvez décider d'afficher la grandeur souhaitée. Ces dernières sont aussi disponibles sur le moniteur Arduino.
-Vous pouvez aussi télécharger notre application APK pour obtenir directement les valeurs sur votre smartphone grâce à votre connexion Bluetooth. 
+### Description du processus <a name="paragraph4.1"></a>
+
+### Pistes d'amélioration <a name="paragraph4.2"></a>
 
 ----------------------
 
-## Arduino UNO <a name="paragraph4"></a>
+## Arduino UNO <a name="paragraph5"></a>
 
 Le code Arduino permet de lire les valeur de tension du capteur de graphite. Vous pouvez choisir par la suite d'afficher sur l'écran OLED soit la tension soit la resistance grâce à l'encodeur rotatoir. 
 
 Le code permet aussi de communiquer avec le télephone portable si vous avez téléchargé notre application Bluetooth APK.
 
 
-### Bibliothèques Arduino <a name="subparagraph4.1"></a>
+### Bibliothèques Arduino <a name="subparagraph5.1"></a>
 
 Afin d'utiliser le code Arduino il vous faudra au préalable télécharger des bibliothèques Arduino
 
@@ -110,5 +122,5 @@ Vous pouvez aussi télécharger ces bibliothèques direcetement sur l'applicatio
 
 L'application APK est une applictaion pour smartphone utilisant le système d'exploitation Android. 
 Vous pouvez telecharger l'application grâce au fichier .apk qui vous est fourni dans notre dossier APK Bluetooth.  
-Si vous soouhaitez modifier l'application, vous pouvez utiliser le fichier .aia sur l'application en ligne _MIT APP INVENTOR_.  
+Si vous souhaitez modifier l'application, vous pouvez utiliser le fichier .aia sur l'application en ligne _MIT APP INVENTOR_.  
 
