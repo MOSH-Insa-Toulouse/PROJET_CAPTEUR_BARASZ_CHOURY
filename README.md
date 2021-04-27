@@ -13,6 +13,9 @@
     *  5.1 [Bibliothèques Arduino](#subparagraph5.1)
 * 6 [Application APK](#paragraph6)
 * 7 [Mise en oeuvre du banc de test](#paragraph7)
+    *  7.1 [Protocole](#paragraph7.1)
+    *  7.2 [Résultat obtenus](#paragraph7.2)
+    *  7.3 [Pistes d'amélioration](#paragraph7.3)
 
 --------- 
 ## Introduction <a name="introduction"></a>
@@ -129,3 +132,9 @@ Si vous souhaitez modifier l'application, vous pouvez utiliser le fichier .aia s
 ----------------------------
 
 ## Mise en oeuvre du banc de test <a name="paragraph7"></a>
+
+### Protocole <a name="paragraph7.1"></a>
+
+### Résultats obtenus <a name="paragraph7.2"></a>
+
+### Pistes d'amélioration <a name="paragraph7.3"></a>
