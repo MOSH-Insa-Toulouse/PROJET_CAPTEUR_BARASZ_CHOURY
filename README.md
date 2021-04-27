@@ -5,16 +5,16 @@
 * 1 [Introduction](#introduction)
 * 2 [Installation de la chaine de mesure](#paragraph2)
 * 3 [KiCad](#paragraph3)
-* 4 [Fabrication du shield et soudure des composants](#paragraph4)  
-    *  4.1 [Description du processus](#subparagraph4.1)
-    *  4.2 [Pistes d'amélioration](#subparagraph4.2)
+* 4 [Fabrication du shield et soudure des composants](#paragraph4)
 * 5 [Arduino UNO](#paragraph5)  
     *  5.1 [Bibliothèques Arduino](#subparagraph5.1)
+    *  5.2 [Description du code](#subparagraph5.1)
 * 6 [Application APK](#paragraph6)
 * 7 [Mise en oeuvre du banc de test](#paragraph7)
     *  7.1 [Protocole](#paragraph7.1)
     *  7.2 [Résultat obtenus](#paragraph7.2)
-    *  7.3 [Pistes d'amélioration](#paragraph7.3)
+* 8 [Améliorations à apporter](#paragraph8)
+   
 
 --------- 
 ## Introduction <a name="introduction"></a>
@@ -73,17 +73,9 @@ Visualisation 3D du shield
 
 ## Fabrication du shield et soudure des composants <a name="paragraph3"></a>
 
-### Description du processus <a name="paragraph4.1"></a>
-
-### Pistes d'amélioration <a name="paragraph4.2"></a>
-
 ----------------------
 
 ## Arduino UNO <a name="paragraph5"></a>
-
-Le code Arduino permet de lire les valeur de tension du capteur de graphite. Vous pouvez choisir par la suite d'afficher sur l'écran OLED soit la tension soit la resistance grâce à l'encodeur rotatoir. 
-
-Le code permet aussi de communiquer avec le télephone portable si vous avez téléchargé notre application Bluetooth APK.
 
 
 ### Bibliothèques Arduino <a name="subparagraph5.1"></a>
@@ -120,6 +112,14 @@ Vous pouvez aussi télécharger ces bibliothèques direcetement sur l'applicatio
 
 ![Capture d’écran 2021-04-21 à 09 43 44](https://user-images.githubusercontent.com/77725271/115516104-16fe1600-a286-11eb-8c3d-5318493226ed.png)
 
+
+
+### Bibliothèques Arduino <a name="subparagraph5.1"></a>
+
+Le code Arduino permet de lire les valeur de tension du capteur de graphite. Vous pouvez choisir par la suite d'afficher sur l'écran OLED soit la tension soit la resistance grâce à l'encodeur rotatoir. 
+
+Le code permet aussi de communiquer avec le télephone portable si vous avez téléchargé notre application Bluetooth APK.
+
 ------------------------------
 
 ## Application APK <a name="paragraph6"></a>
@@ -136,4 +136,6 @@ Si vous souhaitez modifier l'application, vous pouvez utiliser le fichier .aia s
 
 ### Résultats obtenus <a name="paragraph7.2"></a>
 
-### Pistes d'amélioration <a name="paragraph7.3"></a>
+----------------------------
+
+## Améliorations à apporter <a name="paragraph8"></a> 
