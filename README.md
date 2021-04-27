@@ -38,7 +38,8 @@ La chaîne de mesure fin prête, nous avons mis au point un banc de test permett
   
     - Connecter le microcontrolleur Arduino Uno au PC grâce au cable USB. 
   
-    - Ouvrir le programme Arduino "ArduinoCode" joint çi dessus. Sélectionner au préalable le bon port de communication Arduino puis compiler et téléverser le programme. 
+    - Ouvrir le programme Arduino "ArduinoCode" joint çi dessus.   
+      Sélectionner au préalable le bon port de communication Arduino puis compiler et téléverser le programme. 
   
 Les valeurs de résistance/tension sont directement affichées sur l'Oled. Grâce à l'encodeur rotatoir, vous pouvez décider d'afficher la grandeur souhaitée. Ces dernières sont aussi disponibles sur le moniteur Arduino.
 Vous pouvez aussi télécharger notre application APK pour obtenir directement les valeurs sur votre smartphone grâce à votre connexion Bluetooth. 
