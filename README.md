@@ -11,7 +11,8 @@
     *  4.2 [Pistes d'amélioration](#subparagraph4.2)
 * 5 [Arduino UNO](#paragraph5)  
     *  5.1 [Bibliothèques Arduino](#subparagraph5.1)
-* 6 [Application APK](#paragraph5)
+* 6 [Application APK](#paragraph6)
+* 7 [Mise en oeuvre du banc de test](#paragraph7)
 
 --------- 
 ## Introduction <a name="introduction"></a>
@@ -119,9 +120,12 @@ Vous pouvez aussi télécharger ces bibliothèques direcetement sur l'applicatio
 
 ------------------------------
 
-## Application APK <a name="paragraph5"></a>
+## Application APK <a name="paragraph6"></a>
 
 L'application APK est une applictaion pour smartphone utilisant le système d'exploitation Android. 
 Vous pouvez telecharger l'application grâce au fichier .apk qui vous est fourni dans notre dossier APK Bluetooth.  
 Si vous souhaitez modifier l'application, vous pouvez utiliser le fichier .aia sur l'application en ligne _MIT APP INVENTOR_.  
 
+----------------------------
+
+## Mise en oeuvre du banc de test <a name="paragraph7"></a>
