@@ -1,7 +1,7 @@
 
 # PROJET_CAPTEUR_BARASZ_CHOURY
 
-
+https://github.com/MOSH-Insa-Toulouse/PROJET_CAPTEUR_BARASZ_CHOURY/blob/f5c0f5c2b84a9e1f35a1e793ca455d3b21bfb118/KiCad/Capteur/schema_capteur.png 
 ## SOMMAIRE 
 * 1 [Introduction](#introduction)
 * 2 [Installation de la chaine de mesure](#paragraph2)
@@ -131,8 +131,7 @@ Si vous souhaitez modifier l'application, vous pouvez utiliser le fichier .aia s
 
 ----------------------------
 
-## Mise en oeuvre du banc de test <a name="paragraph7"></a>
-https://github.com/MOSH-Insa-Toulouse/PROJET_CAPTEUR_BARASZ_CHOURY/blob/f5c0f5c2b84a9e1f35a1e793ca455d3b21bfb118/APK%20Bluetooth/projet_final.aia 
+## Mise en oeuvre du banc de test <a name="paragraph7"></a> 
 
 ### Protocole <a name="paragraph7.1"></a>
 
