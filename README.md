@@ -6,9 +6,9 @@
 * 2 [Installation de la chaine de mesure](#paragraph2)
 * 3 [KiCad](#paragraph3)
 * 4 [Fabrication du shield et soudure des composants](#paragraph4)
-* 5 [Arduino UNO](#paragraph5)  
-    *  5.1 [Bibliothèques Arduino](#subparagraph5.1)
-    *  5.2 [Description du code](#subparagraph5.1)
+* 5 [Arduino UNO](#paragraph5) 
+    *  5.1 [Description du code](#subparagraph5.1) 
+    *  5.2 [Bibliothèques Arduino](#subparagraph5.2)
 * 6 [Application APK](#paragraph6)
 * 7 [Mise en oeuvre du banc de test](#paragraph7)
     *  7.1 [Protocole](#paragraph7.1)
@@ -77,8 +77,13 @@ Visualisation 3D du shield
 
 ## Arduino UNO <a name="paragraph5"></a>
 
+### Description du code <a name="subparagraph5.1"></a>
 
-### Bibliothèques Arduino <a name="subparagraph5.1"></a>
+Le code Arduino permet de lire les valeur de tension du capteur de graphite. Vous pouvez choisir par la suite d'afficher sur l'écran OLED soit la tension soit la resistance grâce à l'encodeur rotatoir. 
+
+Le code permet aussi de communiquer avec le télephone portable si vous avez téléchargé notre application Bluetooth APK.
+
+### Bibliothèques Arduino <a name="subparagraph5.2"></a>
 
 Afin d'utiliser le code Arduino il vous faudra au préalable télécharger des bibliothèques Arduino
 
@@ -113,12 +118,6 @@ Vous pouvez aussi télécharger ces bibliothèques direcetement sur l'applicatio
 ![Capture d’écran 2021-04-21 à 09 43 44](https://user-images.githubusercontent.com/77725271/115516104-16fe1600-a286-11eb-8c3d-5318493226ed.png)
 
 
-
-### Bibliothèques Arduino <a name="subparagraph5.1"></a>
-
-Le code Arduino permet de lire les valeur de tension du capteur de graphite. Vous pouvez choisir par la suite d'afficher sur l'écran OLED soit la tension soit la resistance grâce à l'encodeur rotatoir. 
-
-Le code permet aussi de communiquer avec le télephone portable si vous avez téléchargé notre application Bluetooth APK.
 
 ------------------------------
 
