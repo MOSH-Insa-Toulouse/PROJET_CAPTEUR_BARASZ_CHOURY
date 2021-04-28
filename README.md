@@ -51,7 +51,7 @@ Vous pouvez aussi télécharger notre application APK pour obtenir directement l
 
 ## KiCad <a name="paragraph3"></a>
 
-Réalisation de la carte PCB sur KiCad  
+Réalisation de la carte PCB sur KiCad :   
    
     - Creation des symboles de l'OLED, le module bluetooth, l'encodeur rotatoir et le capteur graphite 
 
