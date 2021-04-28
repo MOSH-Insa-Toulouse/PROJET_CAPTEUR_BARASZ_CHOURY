@@ -135,6 +135,9 @@ Si vous souhaitez modifier l'application, vous pouvez utiliser le fichier .aia s
 
 ### Résultats obtenus <a name="paragraph7.2"></a>
 
+Tous nos résusltats obtenus sont au lien suivant :
+Les analyses :
+
 ----------------------------
 
 ## Améliorations à apporter <a name="paragraph8"></a> 
