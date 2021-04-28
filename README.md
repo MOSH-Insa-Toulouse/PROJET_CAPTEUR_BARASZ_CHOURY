@@ -135,7 +135,7 @@ Si vous souhaitez modifier l'application, vous pouvez utiliser le fichier .aia s
 
 ### Résultats obtenus <a name="paragraph7.2"></a>
 
-Tous nos résusltats obtenus sont au lien suivant :
+Tous nos résusltats obtenus sont au lien suivant : https://github.com/MOSH-Insa-Toulouse/PROJET_CAPTEUR_BARASZ_CHOURY/blob/673d1bdae1e898bd41edab2f5b24a807662d95ac/Banc%20de%20test/R%C3%A9sultats%20Banc%20de%20Test.xlsx  
 Les analyses :
 
 ----------------------------
