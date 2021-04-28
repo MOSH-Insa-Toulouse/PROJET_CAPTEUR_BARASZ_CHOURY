@@ -143,5 +143,5 @@ Les analyses : https://github.com/MOSH-Insa-Toulouse/PROJET_CAPTEUR_BARASZ_CHOUR
 
 ## Améliorations à apporter <a name="paragraph8"></a> 
 
-- Afin de faire varier le gain du cricuit transimpédance, il faudrait faire varier la résistance du capteur (R2 sur le schéma KiCad). Cependant, celle-ci e été fixé au PCB. Il aurait donc fallut soit pouvoir changer la résistance en ne la fixant pas au PCB soit mettre une résistance variable.    
+- Afin de faire varier le gain du cricuit transimpédance, il faudrait faire varier la résistance du capteur (R2 sur le schéma KiCad). Cependant, celle-ci a été fixé au PCB. Il aurait donc fallut soit pouvoir changer la résistance en ne la fixant pas au PCB soit mettre une résistance variable.    
 - Dans notre banc de test les déformations sont irréversibles. Il est aussi impossible de placer le papier exactement à l'identique que le précédent. Et nous ne pouvons pas mettre exactement la même quantité de graphite à chaque fois. Ainsi les résultats obtenus peuvent être très différents les uns des autres et ils faut de nombreux test pour pouvoir en faire une moyenne correcte.  
