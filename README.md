@@ -138,3 +138,6 @@ Si vous souhaitez modifier l'application, vous pouvez utiliser le fichier .aia s
 ----------------------------
 
 ## Améliorations à apporter <a name="paragraph8"></a> 
+
+changer R2
+banc de test-> deformations irréversibles
