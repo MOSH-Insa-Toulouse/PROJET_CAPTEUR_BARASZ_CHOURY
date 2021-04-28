@@ -12,7 +12,7 @@
 * 6 [Application APK](#paragraph6)
 * 7 [Mise en oeuvre du banc de test](#paragraph7)
     *  7.1 [Protocole](#paragraph7.1)
-    *  7.2 [Résultat obtenus](#paragraph7.2)
+    *  7.2 [Résultats obtenus](#paragraph7.2)
 * 8 [Améliorations à apporter](#paragraph8)
    
 
