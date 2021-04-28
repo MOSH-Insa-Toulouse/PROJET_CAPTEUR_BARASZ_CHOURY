@@ -51,7 +51,7 @@ Vous pouvez aussi télécharger notre application APK pour obtenir directement l
 
 ## KiCad <a name="paragraph3"></a>
 
-Réalisation de la carte PCB sur KiCad :   
+Réalisation de la carte PCB sur KiCad  
    
     - Creation des symboles de l'OLED, le module bluetooth, l'encodeur rotatoir et le capteur graphite 
 
@@ -72,6 +72,11 @@ Visualisation 3D du shield
 -------------------
 
 ## Fabrication du shield et soudure des composants <a name="paragraph3"></a>
+
+Avec l'aide de Mme Cathy Crouzet, nous avons fabriqué la carte Shield modélisé au préalable sur le logiciel KiCAD.
+Cette carte est composée d'une plaque d'epoxy recouverte d'une fine couche de cuivre. La première étape de fabrication consiste à imprimer, à partir de l'empreinte Gerber, le masque sur du papier. Ensuite, nous déposons la résine protectrice sur ce masque par la technique d'insolation UV.
+Ensuite, nous réalisons la gravure de notre plaquette d'epoxy: elle est plongée dans un bain de perchlorure de fer pendant 10 minutes environ. L'excès de résine est retirée en utilisant de l'éacétone. 
+
 
 ----------------------
 
@@ -133,15 +138,13 @@ Si vous souhaitez modifier l'application, vous pouvez utiliser le fichier .aia s
 
 ### Protocole <a name="paragraph7.1"></a>
 
-### Résultats obtenus <a name="paragraph7.2"></a>
+Le protocole du banc de test est détaillé dans le fichier "Protocole du banc de test". Veuillez trouver ci joint le lien de ce fichier :https://github.com/MOSH-Insa-Toulouse/PROJET_CAPTEUR_BARASZ_CHOURY/blob/c4a42f93ef4b2496bb2e2b371ca4b9b335598a01/Banc%20de%20test/Protocole%20de%20notre%20banc%20de%20test.pdf
 
-Tous nos résusltats obtenus sont au lien suivant : https://github.com/MOSH-Insa-Toulouse/PROJET_CAPTEUR_BARASZ_CHOURY/blob/673d1bdae1e898bd41edab2f5b24a807662d95ac/Banc%20de%20test/R%C3%A9sultats%20Banc%20de%20Test.xlsx  
-  
-Les analyses : https://github.com/MOSH-Insa-Toulouse/PROJET_CAPTEUR_BARASZ_CHOURY/blob/673d1bdae1e898bd41edab2f5b24a807662d95ac/Banc%20de%20test/Analyse%20de%20nos%20r%C3%A9sultats%20banc%20de%20test.pdf  
+### Résultats obtenus <a name="paragraph7.2"></a>
 
 ----------------------------
 
 ## Améliorations à apporter <a name="paragraph8"></a> 
 
-- Afin de faire varier le gain du cricuit transimpédance, il faudrait faire varier la résistance du capteur (R2 sur le schéma KiCad). Cependant, celle-ci a été fixé au PCB. Il aurait donc fallut soit pouvoir changer la résistance en ne la fixant pas au PCB soit mettre une résistance variable.    
-- Dans notre banc de test les déformations sont irréversibles. Il est aussi impossible de placer le papier exactement à l'identique que le précédent. Et nous ne pouvons pas mettre exactement la même quantité de graphite à chaque fois. Ainsi les résultats obtenus peuvent être très différents les uns des autres et ils faut de nombreux test pour pouvoir en faire une moyenne correcte.  
+changer R2. 
+banc de test-> deformations irréversibles
