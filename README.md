@@ -86,11 +86,12 @@ La carte PCB ainsi obtenue est fin prête pour les étapes de perçage et de mis
 
   * Perçage des trous de la plaque obtenugrâce à une perçeuse électrique 
 Nous perçons des trous de diamètre égale à:
-  - 0.8mm pour l'AOP, les résistances et les capacités.
-  - 1mm pour les connecteurs de l'Arduino, le module Bluetooth, l'écran OLED, l'encodeur rotatoire et les pinces du capteur.
+      * 0.8mm pour l'AOP, les résistances et les capacités.
+      * 1mm pour les connecteurs de l'Arduino, le module Bluetooth, l'écran OLED, l'encodeur rotatoire et les pinces du capteur.
  
   * Soudure des composants
- Les composants sont soudés sur la carte PCB à l'aide d'un fer à souder. 
+ 
+Les composants sont soudés sur la carte PCB à l'aide d'un fer à souder. 
  
 ----------------------
 
@@ -98,7 +99,7 @@ Nous perçons des trous de diamètre égale à:
 
 ### Description du code <a name="subparagraph5.1"></a>
 
-Le code Arduino permet de lire les valeurs de tension du capteur de graphite et calcule la valeur de résistance correspondante. Il assure l'afficahge des valeurs de tension et de résistance sur un écran OLED. De plus, le code permet la gestion d'un menu via l'encodeur rotatoire: l'utilisateur peut décider d'afficher la valeur de la résistance ou bien celle de la tension.  Vous pouvez choisir par la suite d'afficher sur l'écran OLED soit la tension soit la resistance grâce à l'encodeur rotatoir. 
+Le code Arduino permet de lire les valeurs de tension du capteur de graphite et calcule la valeur de résistance correspondante. Il assure l'affichage des valeurs de tension et de résistance sur un écran OLED. De plus, le code permet la gestion d'un menu via l'encodeur rotatoire: l'utilisateur peut décider d'afficher la valeur de la résistance ou bien celle de la tension. 
 
 Le code permet aussi de communiquer par Bluetooth avec le télephone portable grâce. Il envoie la mesure de la tension du capteur de graphite par Bluetooth. 
 
