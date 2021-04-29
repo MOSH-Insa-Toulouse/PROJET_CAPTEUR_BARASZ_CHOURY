@@ -73,20 +73,34 @@ Visualisation 3D du shield
 
 ## Fabrication du shield et soudure des composants <a name="paragraph3"></a>
 
-Avec l'aide de Mme Cathy Crouzet, nous avons fabriqué la carte Shield modélisé au préalable sur le logiciel KiCAD.
-Cette carte est composée d'une plaque d'epoxy recouverte d'une fine couche de cuivre. La première étape de fabrication consiste à imprimer, à partir de l'empreinte Gerber, le masque sur du papier. Ensuite, nous déposons la résine protectrice sur ce masque par la technique d'insolation UV.
-Ensuite, nous réalisons la gravure de notre plaquette d'epoxy: elle est plongée dans un bain de perchlorure de fer pendant 10 minutes environ. L'excès de résine est retirée en utilisant de l'éacétone. 
+Avec l'aide de Mme Cathy Crouzet, nous avons fabriqué la carte PCB modélisée au préalable sur le logiciel KiCAD. Notre carte PCB est constituée d'une plaque isolante d'epoxy recouverte d'une très fine feuille de cuivre. Une couche de résine photosensible est déposée sur ce support epoxy cuivré.
+
+Tout d'abord, le tracé de notre modélisation PCB est imprimé sur un support transparant aux ultraviolets de type papier calque : on obtient le masque (ou typon). Celui ci est placé sur la plaquette epoxy, dans l'insoleuse à tube UV, en prenant soin de poser le côté encré au contact du cuivre. Lors de l'insolation de la plaque (réalisée en 1'30"- 2'30"), les parties du typon correspondant aux pistes du circuit empêchent les UV d'atteindre la surface sensible.   
+La plaque est ensuite plongée quelques secondes dans un liquide appelé révélateur. Celui ci dissout la résine exposée aux UV lors de l'insolation. A la fin de cette étape,  la résine est seulement conservée dans les zones destinées aux pistes de notre circuit.
+
+Après une étape de rinçage à l'eau courante, la plaquette doit par la suite être gravée. Pour cela, nous la plongeons dans un bain de perchlorure de fer pendant 10 minutes environ. Les parties de cuivre non protégées par la résine photosensible sont ici dissoues. Enfin, la dernière étape du processus consiste à retirer l'excès de résine en utilisant de l'acétone. 
 
 
+La carte PCB ainsi obtenue est fin prête pour les étapes de perçage et de mise en place des composants. 
+
+
+  * Perçage des trous de la plaque obtenugrâce à une perçeuse électrique 
+Nous perçons des trous de diamètre égale à:
+  - 0.8mm pour l'AOP, les résistances et les capacités.
+  - 1mm pour les connecteurs de l'Arduino, le module Bluetooth, l'écran OLED, l'encodeur rotatoire et les pinces du capteur.
+ 
+  * Soudure des composants
+ Les composants sont soudés sur la carte PCB à l'aide d'un fer à souder. 
+ 
 ----------------------
 
 ## Arduino UNO <a name="paragraph5"></a>
 
 ### Description du code <a name="subparagraph5.1"></a>
 
-Le code Arduino permet de lire les valeur de tension du capteur de graphite. Vous pouvez choisir par la suite d'afficher sur l'écran OLED soit la tension soit la resistance grâce à l'encodeur rotatoir. 
+Le code Arduino permet de lire les valeurs de tension du capteur de graphite et calcule la valeur de résistance correspondante. Il assure l'afficahge des valeurs de tension et de résistance sur un écran OLED. De plus, le code permet la gestion d'un menu via l'encodeur rotatoire: l'utilisateur peut décider d'afficher la valeur de la résistance ou bien celle de la tension.  Vous pouvez choisir par la suite d'afficher sur l'écran OLED soit la tension soit la resistance grâce à l'encodeur rotatoir. 
 
-Le code permet aussi de communiquer avec le télephone portable si vous avez téléchargé notre application Bluetooth APK.
+Le code permet aussi de communiquer par Bluetooth avec le télephone portable grâce. Il envoie la mesure de la tension du capteur de graphite par Bluetooth. 
 
 ### Bibliothèques Arduino <a name="subparagraph5.2"></a>
 
@@ -151,12 +165,12 @@ Les analyses de nos résultats : https://github.com/MOSH-Insa-Toulouse/PROJET_CA
 ## Améliorations à apporter <a name="paragraph8"></a> 
 
 
-- Afin de pouvoir lire une plus grade gamme de résistance tout en ayant des mesure stable, il faudrait pouvoir changer le gain du circuit transimpédance c'est à dire pouvoir modifier la résistance R2 ( voir schéma KiCad ). Cependant nous avons soudé celle-ci au circuit PCB. Il aurait donc fallut : 
+- Afin de pouvoir lire une plus grade gamme de résistance tout en ayant des mesures stables, il faudrait pouvoir changer le gain du circuit transimpédance c'est à dire modifier la résistance R2 ( voir schéma KiCad ). Cependant nous avons soudé celle-ci sur le circuit PCB. Il aurait donc fallut : 
     
-  * soit ne pas souder cette résistance et pouvoir mettre des résistances différentes
-  * soit souder une résistance variable  
+  * ne pas souder cette résistance pour pouvoir mettre des résistances différentes
+  * souder une résistance variable  
 
-- Lors de l'utilisation du banc de test les déformations sont irréversibles sur le papier. De plus il est impossible de reproduire exectement les mêmes conditons de test car nous ne pouvons pas:
+- Lors de l'utilisation du banc de test les déformations sont irréversibles sur le papier. De plus, il est impossible de reproduire exectement les mêmes conditons de test car nous ne pouvons pas:
 
   * savoir exacement la quantité de graphite mise sur le papier  
   * positionner exactement de la même manière le papier sur le banc de test   
