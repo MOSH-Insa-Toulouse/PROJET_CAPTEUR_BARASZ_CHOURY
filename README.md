@@ -147,6 +147,14 @@ L'application APK est une applictaion pour smartphone utilisant le système d'ex
 Vous pouvez telecharger l'application grâce au fichier .apk qui vous est fourni dans notre dossier APK Bluetooth.  
 Si vous souhaitez modifier l'application, vous pouvez utiliser le fichier .aia sur l'application en ligne _MIT APP INVENTOR_.  
 
+Notre application est à mettre en relation avec le code Arduino développé pour mesurer la tension de la couche de graphite. L'application permet de:
+  * se connecter à un module Bluetooth.
+  * une fois connecté, relever la  valeur de la tension de la couche de graphite envoyée par Bluetooth.
+  * calculer la résistance correspondante.
+  * afficher ces deux valeurs de tension et de résistance
+  * tracer un graphe décrivant l'évolution de la tension au cours du temps.  
+
+
 ----------------------------
 
 ## Mise en oeuvre du banc de test <a name="paragraph7"></a> 
