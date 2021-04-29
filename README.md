@@ -142,9 +142,20 @@ Le protocole du banc de test est détaillé dans le fichier "Protocole du banc d
 
 ### Résultats obtenus <a name="paragraph7.2"></a>
 
+Résultats obtenus sont détaillés au line suivant : https://github.com/MOSH-Insa-Toulouse/PROJET_CAPTEUR_BARASZ_CHOURY/blob/7fd93865a4fc5e2c620f3dd2ebc7bdd68492d652/Banc%20de%20test/R%C3%A9sultats%20Banc%20de%20Test.xlsx 
+
+Les analyses de nos résultats : https://github.com/MOSH-Insa-Toulouse/PROJET_CAPTEUR_BARASZ_CHOURY/blob/7fd93865a4fc5e2c620f3dd2ebc7bdd68492d652/Banc%20de%20test/Analyse%20de%20nos%20r%C3%A9sultats%20banc%20de%20test.pdf 
+
 ----------------------------
 
 ## Améliorations à apporter <a name="paragraph8"></a> 
 
-changer R2. 
-banc de test-> deformations irréversibles
+- Afin de pouvoir lire une plus grade gamme de résistance tout en ayant des mesure stable, il faudrait pouvoir changer le gain du circuit transimpédance c'est à dire pouvoir modifier la résistance R2 ( voir schéma KiCad). Cependant nous avons soudé celle-ci au circuit PCB.  
+Il aurait donc fallut :
+* soit ne pas souder cette résistance et pouvoir mettre des résistances différentes  
+* soit souder une résistance variable  
+
+- Lors de l'utilisation du banc de test les déformations sont irréversibles sur le papier. De plus il est impossible de reproduire exectement les mêmes conditons de test car nous ne pouvons pas:  
+* savoir exacement la quantité de graphite mise sur le papier  
+* positionner excatement de la même manière le papier sur le banc de test  
+
