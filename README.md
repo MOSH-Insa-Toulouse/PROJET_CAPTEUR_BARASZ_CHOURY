@@ -151,7 +151,7 @@ Les analyses de nos résultats : https://github.com/MOSH-Insa-Toulouse/PROJET_CA
 ## Améliorations à apporter <a name="paragraph8"></a> 
 
 
-- Afin de pouvoir lire une plus grade gamme de résistance tout en ayant des mesure stable, il faudrait pouvoir changer le gain du circuit transimpédance c'est à dire pouvoir modifier la résistance R2 ( voir schéma KiCad). Cependant nous avons soudé celle-ci au circuit PCB. Il aurait donc fallut : 
+- Afin de pouvoir lire une plus grade gamme de résistance tout en ayant des mesure stable, il faudrait pouvoir changer le gain du circuit transimpédance c'est à dire pouvoir modifier la résistance R2 ( voir schéma KiCad ). Cependant nous avons soudé celle-ci au circuit PCB. Il aurait donc fallut : 
     
   * soit ne pas souder cette résistance et pouvoir mettre des résistances différentes
   * soit souder une résistance variable  
