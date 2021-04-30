@@ -56,7 +56,8 @@ Réalisation de la carte PCB sur KiCad
     - Creation des symboles de l'OLED, le module bluetooth, l'encodeur rotatoir et le capteur graphite.
       Tous les symboles sont répertoriés dans le dossier KiCad. 
 
-    - Schéma electrique du circuit sur eeschema. Sur ce eeschema, vous trouverez un amplificateur transimpédance, l'écran OLED, le module Bluetooth et l'encodeur rotatoire. En haut à droite les pins de la carte Arduino sont représentées.  
+    - Schéma electrique du circuit sur eeschema. Sur ce eeschema, vous trouverez un amplificateur transimpédance, l'écran OLED, le module Bluetooth et l'encodeur rotatoire.
+      En haut à droite les pins de la carte Arduino sont représentées.  
 ![Capture d’écran 2021-04-20 à 10 19 14](https://user-images.githubusercontent.com/77725271/115362660-0f753900-a1c2-11eb-8249-97a2df3727b4.png)
 
    
