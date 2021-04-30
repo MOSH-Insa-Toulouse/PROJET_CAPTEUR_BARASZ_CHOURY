@@ -4,7 +4,7 @@
 ## SOMMAIRE 
 * 1 [Introduction](#introduction)
 * 2 [Installation de la chaine de mesure](#paragraph2)
-* 3 [KiCad](#paragraph3)
+* 3 [Modélisation de la carte PCB sur KiCad](#paragraph3)
 * 4 [Fabrication du shield et soudure des composants](#paragraph4)
 * 5 [Arduino UNO](#paragraph5) 
     *  5.1 [Description du code](#subparagraph5.1) 
@@ -49,7 +49,7 @@ Vous pouvez aussi télécharger notre application APK pour obtenir directement l
 
 -------------------
 
-## KiCad <a name="paragraph3"></a>
+## Modélisation de la carte PCB sur KiCad <a name="paragraph3"></a>
 
 Réalisation de la carte PCB sur KiCad  
    
