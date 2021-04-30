@@ -35,7 +35,7 @@ La chaîne de mesure fin prête, nous avons mis au point un banc de test permett
   
     - Vérifier l'état des pistes. 
   
-    - Souder les composants et brancher l'Oled, l'encodeur rotatoir et le module Bluetooth. 
+    - Souder les composants et brancher l'OLED, l'encodeur rotatoir et le module Bluetooth. 
   
     - Connecter le PCB sur la carte Arduino Uno.
   
@@ -44,7 +44,7 @@ La chaîne de mesure fin prête, nous avons mis au point un banc de test permett
     - Ouvrir le programme Arduino (voir dossier Arduino).   
       Sélectionner au préalable le bon port de communication Arduino puis compiler et téléverser le programme. 
   
-Les valeurs de résistance/tension sont directement affichées sur l'Oled. Grâce à l'encodeur rotatoir, vous pouvez décider d'afficher la grandeur souhaitée. Ces dernières sont aussi disponibles sur le moniteur Arduino.
+Les valeurs de résistance/tension sont directement affichées sur l'écran OLED. Grâce à l'encodeur rotatoir, vous pouvez décider d'afficher la grandeur souhaitée. Ces dernières sont aussi disponibles sur le moniteur Arduino.
 Vous pouvez aussi télécharger notre application APK pour obtenir directement les valeurs sur votre smartphone grâce à votre connexion Bluetooth. 
 
 -------------------
@@ -168,7 +168,7 @@ Le protocole du banc de test est détaillé dans le fichier "Protocole du banc d
 
 ### Résultats obtenus <a name="paragraph7.2"></a>
 
-Résultats obtenus sont détaillés au line suivant : https://github.com/MOSH-Insa-Toulouse/PROJET_CAPTEUR_BARASZ_CHOURY/blob/7fd93865a4fc5e2c620f3dd2ebc7bdd68492d652/Banc%20de%20test/R%C3%A9sultats%20Banc%20de%20Test.xlsx 
+Résultats obtenus sont détaillés au lien suivant : https://github.com/MOSH-Insa-Toulouse/PROJET_CAPTEUR_BARASZ_CHOURY/blob/7fd93865a4fc5e2c620f3dd2ebc7bdd68492d652/Banc%20de%20test/R%C3%A9sultats%20Banc%20de%20Test.xlsx 
 
 Les analyses de nos résultats : https://github.com/MOSH-Insa-Toulouse/PROJET_CAPTEUR_BARASZ_CHOURY/blob/7fd93865a4fc5e2c620f3dd2ebc7bdd68492d652/Banc%20de%20test/Analyse%20de%20nos%20r%C3%A9sultats%20banc%20de%20test.pdf 
 
