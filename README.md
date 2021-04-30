@@ -41,7 +41,7 @@ La chaîne de mesure fin prête, nous avons mis au point un banc de test permett
   
     - Connecter le microcontrolleur Arduino Uno au PC grâce au cable USB. 
   
-    - Ouvrir le programme Arduino (voir fichier Arduino).   
+    - Ouvrir le programme Arduino (voir dossier Arduino).   
       Sélectionner au préalable le bon port de communication Arduino puis compiler et téléverser le programme. 
   
 Les valeurs de résistance/tension sont directement affichées sur l'Oled. Grâce à l'encodeur rotatoir, vous pouvez décider d'afficher la grandeur souhaitée. Ces dernières sont aussi disponibles sur le moniteur Arduino.
@@ -53,7 +53,7 @@ Vous pouvez aussi télécharger notre application APK pour obtenir directement l
 
 Réalisation de la carte PCB sur KiCad  
    
-    - Creation des symboles de l'OLED, le module bluetooth, l'encodeur rotatoir et le capteur graphite 
+    - Creation des symboles de l'OLED, le module bluetooth, l'encodeur rotatoir et le capteur graphite. Tous les symboles sont répertoriés dans le dossier KiCad. 
 
     - Schéma electrique du circuit sur eeschema  
 ![Capture d’écran 2021-04-20 à 10 19 14](https://user-images.githubusercontent.com/77725271/115362660-0f753900-a1c2-11eb-8249-97a2df3727b4.png)
@@ -73,10 +73,10 @@ Visualisation 3D du shield
 
 ## Fabrication du shield et soudure des composants <a name="paragraph3"></a>
 
-Avec l'aide de Mme Cathy Crouzet, nous avons fabriqué la carte PCB modélisée au préalable sur le logiciel KiCAD. Notre carte PCB est constituée d'une plaque isolante d'epoxy recouverte d'une très fine feuille de cuivre. Une couche de résine photosensible est déposée sur ce support epoxy cuivré.
+Avec l'aide de Mme Cathy Crouzet, nous avons fabriqué la carte PCB modélisée au préalable sur le logiciel KiCad. Notre carte PCB est constituée d'une plaque isolante d'epoxy recouverte d'une très fine feuille de cuivre. Une couche de résine photosensible est déposée sur ce support epoxy cuivré.
 
 Tout d'abord, le tracé de notre modélisation PCB est imprimé sur un support transparant aux ultraviolets de type papier calque : on obtient le masque (ou typon). Celui ci est placé sur la plaquette epoxy, dans l'insoleuse à tube UV, en prenant soin de poser le côté encré au contact du cuivre. Lors de l'insolation de la plaque (réalisée en 1'30"- 2'30"), les parties du typon correspondant aux pistes du circuit empêchent les UV d'atteindre la surface sensible.   
-La plaque est ensuite plongée quelques secondes dans un liquide appelé révélateur. Celui ci dissout la résine exposée aux UV lors de l'insolation. A la fin de cette étape,  la résine est seulement conservée dans les zones destinées aux pistes de notre circuit.
+La plaque est ensuite plongée quelques secondes dans un liquide appelé révélateur. Celui ci dissout la résine exposée aux UV lors de l'insolation. A la fin de cette étape, la résine est seulement conservée dans les zones destinées aux pistes de notre circuit.
 
 Après une étape de rinçage à l'eau courante, la plaquette doit par la suite être gravée. Pour cela, nous la plongeons dans un bain de perchlorure de fer pendant 10 minutes environ. Les parties de cuivre non protégées par la résine photosensible sont ici dissoues. Enfin, la dernière étape du processus consiste à retirer l'excès de résine en utilisant de l'acétone. 
 
@@ -85,7 +85,7 @@ La carte PCB ainsi obtenue est fin prête pour les étapes de perçage et de mis
 
 
   * Perçage des trous de la plaque obtenugrâce à une perçeuse électrique 
-Nous perçons des trous de diamètre égale à:
+Nous perçons des trous de diamètre égale à :
       * 0.8mm pour l'AOP, les résistances et les capacités.
       * 1mm pour les connecteurs de l'Arduino, le module Bluetooth, l'écran OLED, l'encodeur rotatoire et les pinces du capteur.
  
@@ -105,7 +105,7 @@ Le code permet aussi de communiquer par Bluetooth avec le télephone portable gr
 
 ### Bibliothèques Arduino <a name="subparagraph5.2"></a>
 
-Afin d'utiliser le code Arduino il vous faudra au préalable télécharger des bibliothèques Arduino
+Afin d'utiliser le code Arduino, il vous faudra au préalable télécharger des bibliothèques Arduino.
 
 À installer depuis l'IDE ou GitHub :
 
@@ -147,7 +147,7 @@ L'application APK est une applictaion pour smartphone utilisant le système d'ex
 Vous pouvez telecharger l'application grâce au fichier .apk qui vous est fourni dans notre dossier APK Bluetooth.  
 Si vous souhaitez modifier l'application, vous pouvez utiliser le fichier .aia sur l'application en ligne _MIT APP INVENTOR_.  
 
-Notre application est à mettre en relation avec le code Arduino développé pour mesurer la tension de la couche de graphite. L'application permet de:
+Notre application est à mettre en relation avec le code Arduino développé pour mesurer la tension de la couche de graphite. L'application permet de :
   * se connecter à un module Bluetooth.
   * une fois connecté, relever la  valeur de la tension de la couche de graphite envoyée par Bluetooth.
   * calculer la résistance correspondante.
