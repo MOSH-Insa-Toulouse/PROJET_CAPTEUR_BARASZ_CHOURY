@@ -177,13 +177,13 @@ Les analyses de nos résultats : https://github.com/MOSH-Insa-Toulouse/PROJET_CA
 ## Améliorations à apporter <a name="paragraph8"></a> 
  
 Notre banc de test présente certaines limites. On peut critiquer notamment : 
-   *le dépôt de graphite sur le papier : on ne peut maitriser la quantité de graphite déposée sur le papier, précision du coloriage.
-   *la non répétabilité de la mesure. En effet, entre chaque série de mesures, les déformations appliquées peuvent varier: le banc de test ne permet pas d’appliquer une       déformation identique. On pourrait envisager un banc de test fonctionnant avec un servomoteur par exemple. Ce système permet de générer des contraintes avec des consignes d’angles bien présice et d'obtenir, de ce fait, une meilleure reproductibilité. 
-   *la déformation irréversible du capteur entre chaque série de mesures. 
+   -le dépôt de graphite sur le papier : on ne peut maitriser la quantité de graphite déposée sur le papier, précision du coloriage.
+   -la non répétabilité de la mesure. En effet, entre chaque série de mesures, les déformations appliquées peuvent varier: le banc de test ne permet pas d’appliquer une       déformation identique. On pourrait envisager un banc de test fonctionnant avec un servomoteur par exemple. Ce système permet de générer des contraintes avec des consignes d’angles bien présice et d'obtenir, de ce fait, une meilleure reproductibilité. 
+   -la déformation irréversible du capteur entre chaque série de mesures. 
 
 Notre carte shield peut être également améliorée. En effet, afin de pouvoir lire une plus grade gamme de résistance tout en ayant des mesures stables, il faudrait pouvoir changer le gain du circuit transimpédance c'est à dire modifier la résistance R2 (voir schéma KiCad ). Cependant nous l'avons soudé  sur le circuit PCB. Il aurait donc fallut : 
     
-   *ne pas souder cette résistance pour pouvoir mettre des résistances différentes
-   *souder une résistance variable (potentiomètre).   
+   -ne pas souder cette résistance pour pouvoir mettre des résistances différentes
+   -souder une résistance variable (potentiomètre).   
 
 Un code Arduino plus complet pourrait également être développé. Si nous travaillons avec une résistance R2 variable, le code doit prendre en compte la modification de la valeur de R2. Le code Arduino pourrait gérer un encodeur rotatoire permttant de modifier la valeur de R2 dans le code.
