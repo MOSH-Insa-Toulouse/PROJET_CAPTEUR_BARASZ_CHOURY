@@ -147,7 +147,7 @@ Vous pouvez aussi télécharger ces bibliothèques direcetement sur l'applicatio
 ## Application APK <a name="paragraph6"></a>
 
 L'application APK est une applictaion pour smartphone utilisant le système d'exploitation Android. 
-Vous pouvez telecharger l'application grâce au fichier .apk qui vous est fourni dans notre dossier APK Bluetooth.  
+Vous pouvez télecharger l'application grâce au fichier .apk qui vous est fourni dans notre dossier APK Bluetooth.  
 Si vous souhaitez modifier l'application, vous pouvez utiliser le fichier .aia sur l'application en ligne _MIT APP INVENTOR_.  
 
 Notre application est à mettre en relation avec le code Arduino développé pour mesurer la tension de la couche de graphite. L'application permet de :
@@ -177,11 +177,11 @@ Les analyses de nos résultats : https://github.com/MOSH-Insa-Toulouse/PROJET_CA
 ## Améliorations à apporter <a name="paragraph8"></a> 
  
 Notre banc de test présente certaines limites. On peut critiquer notamment : 
-   - le dépôt de graphite sur le papier : on ne peut maitriser la quantité de graphite déposée sur le papier, précision du coloriage.
+   - le dépôt de graphite sur le papier : on ne peut maitriser la quantité de graphite déposée sur le papier, la précision du coloriage.
    - la non répétabilité de la mesure. En effet, entre chaque série de mesures, les déformations appliquées peuvent varier: le banc de test ne permet pas d’appliquer une       déformation identique. On pourrait envisager un banc de test fonctionnant avec un servomoteur par exemple. Ce système permet de générer des contraintes avec des consignes d’angles bien présice et d'obtenir, de ce fait, une meilleure reproductibilité. 
    - la déformation irréversible du capteur entre chaque série de mesures. 
 
-Notre carte shield peut être également améliorée. En effet, afin de pouvoir lire une plus grade gamme de résistance tout en ayant des mesures stables, il faudrait pouvoir changer le gain du circuit transimpédance c'est à dire modifier la résistance R2 (voir schéma KiCad ). Cependant nous l'avons soudé  sur le circuit PCB. Il aurait donc fallut : 
+Notre carte shield peut être également améliorée. En effet, afin de pouvoir lire une plus grande plage de résistance tout en ayant des mesures stables, il faudrait pouvoir changer le gain du circuit transimpédance c'est à dire modifier la résistance R2 (voir schéma KiCad ). Cependant nous l'avons soudée sur le circuit PCB. Il aurait donc fallu : 
     
    - ne pas souder cette résistance pour pouvoir mettre des résistances différentes
    - souder une résistance variable (potentiomètre).   
