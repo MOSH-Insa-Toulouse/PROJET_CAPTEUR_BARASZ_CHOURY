@@ -157,7 +157,7 @@ Notre application est à mettre en relation avec le code Arduino développé pou
   * afficher ces deux valeurs de tension et de résistance
   * tracer un graphe décrivant l'évolution de la tension au cours du temps.  
 
-
+![Capture d’écran 2021-05-17 à 09 37 15]https://github.com/MOSH-Insa-Toulouse/PROJET_CAPTEUR_BARASZ_CHOURY/blob/afafc8547203cca5255349f3d089cf0c21daa2fc/APK%20Bluetooth/app.png
 ----------------------------
 
 ## Mise en oeuvre du banc de test <a name="paragraph7"></a> 
